@@ -1,0 +1,27 @@
+@import '../settings/colors.scss';
+
+html,
+body{
+    font:16px / 1.5 -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-weight: 300;
+}
+
+img{
+    display: block;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+h3{
+    margin:auto;
+    font-weight: 400;
+}
+
+.c-app {
+    overflow: hidden;
+}

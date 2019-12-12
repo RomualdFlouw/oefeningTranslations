@@ -1,0 +1,44 @@
+.c-hands{
+    width: auto;
+    padding-bottom:100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.c-hand{
+    position: absolute;
+    width: 0.5%;
+    height: 40%;
+    background-color: #111118;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transition: all 0.2s ;
+}
+
+.c-seconds{
+    height: 50%;
+    background: red;
+
+}
+
+.c-minutes{
+    height: 35%;
+}
+
+
+.c-hour{
+    height: 20%;
+}
+
+.c-cirlce{
+    height: 2%;
+    width: 2%;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: white;
+    justify-self: center;
+    text-align: center;
+    bottom: 48.5%;
+    left: 48.8%;
+}
